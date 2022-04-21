@@ -166,14 +166,9 @@ body.dark-theme {
     hsla(var(--hue), var(--sat), var(--lig), 0.2) 100%
   );
   border-radius: 50%;
-  overflow: hidden;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
-}
-
-.profile__profile img {
-  width: 75px;
 }
 
 .profile__border {
@@ -185,6 +180,11 @@ body.dark-theme {
   display: grid;
   place-items: center;
   margin-bottom: 0.75rem;
+}
+.profile__profile img {
+  width: auto;
+  height: auto;
+  border-radius: 50%;
 }
 
 .profile__name {
